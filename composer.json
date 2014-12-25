@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "This Bundle provides an Elasticsearch service for Symfony2",
     "keywords": ["elasticsearch"],
-    "homepage": "https://github.com/ilanco",
+    "homepage": "https://github.com/ilanco/ElasticsearchBundle",
     "license": "MIT",
     "authors": [
         {
