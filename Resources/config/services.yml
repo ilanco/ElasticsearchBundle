@@ -1,0 +1,10 @@
+parameters:
+    elasticsearch.hosts:
+        - "localhost:9200"
+
+services:
+    elasticsearch.client:
+        class: Elasticsearch\Client
+        arguments:
+            -
+                hosts: "%elasticsearch.hosts%"

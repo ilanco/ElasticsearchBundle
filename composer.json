@@ -1,0 +1,26 @@
+{
+    "name": "ilanco/elasticsearch-bundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle provides an Elasticsearch service for Symfony2",
+    "keywords": ["elasticsearch"],
+    "homepage": "https://github.com/ilanco",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilan Cohen",
+            "email": "ilanco@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.2",
+        "elasticsearch/elasticsearch": "~1.0"
+    },
+    "require-dev": {
+        "sensio/framework-extra-bundle": "~2.2"
+    },
+    "autoload": {
+        "psr-0": { "IC\\ElasticsearchBundle": "" }
+    },
+    "target-dir": "IC/ElasticsearchBundle"
+}
